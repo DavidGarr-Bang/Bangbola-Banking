@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Bangbola Banking",
+    "slug": "Bangbola-Banking",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon/bbiconColor.png",
+    "primaryColor": "#3198d4",
+    "description": "This application will provide a mock mobile banking. This applications is made with react native expo and a assortment libraries. Such react native paper.",
+    "splash": {
+      "image": "./assets/icon/bbicon.png",
+      "backgroundColor": "#3198d4"
+    },
+
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon/bbicon.png",
+        "backgroundColor": "#3198d4"
+      }
+    }
+  }
+}
